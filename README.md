@@ -55,13 +55,9 @@ Access at `http://localhost:9090`
 
 **Viewing:** Join existing rooms to watch live content without broadcasting.
 
-![Usage Flow](screenshots/usage-flow.png)
-
 ## 🏛️ Architecture
 
 Signaling server built with Go Fiber handling WebSocket connections for WebRTC peer coordination. Frontend utilizes browser WebRTC APIs for direct media streaming.
-
-![Architecture](screenshots/architecture.png)
 
 ## 📝 License
 
