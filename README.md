@@ -24,7 +24,7 @@ A real-time video streaming application enabling multiple users to broadcast and
 ### Real-Time Video Communication
 Multi-participant video streaming with low-latency peer-to-peer connections.
 
-<img width="2560" height="1271" alt="screenshot-2025-08-28-15-54-01" src="https://github.com/user-attachments/assets/828a9539-a0d6-4235-888d-92a26a083f6b" />
+<img width="2560" height="1271" alt="screenshot-2025-08-28-16-01-29" src="https://github.com/user-attachments/assets/85c334b5-c794-4a36-8838-c8cd0de9d693" />
 
 ### Role-Based Access
 Broadcaster and viewer modes for flexible participation control.
