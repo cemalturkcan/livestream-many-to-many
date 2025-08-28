@@ -22,7 +22,7 @@ func RegisterMiddlewares(s *fiber.App) {
 	}
 	s.Use(compress.New())
 
-	s.Use("/api/websocket", func(c *fiber.Ctx) error {
+	s.Use("/api/main", func(c *fiber.Ctx) error {
 		if websocket.IsWebSocketUpgrade(c) {
 			c.Locals("allowed", true)
 			return c.Next()

@@ -1,8 +1,9 @@
 package routes
 
 import (
+	"livestream-many-to-many/src/routes/api"
+
 	"github.com/gofiber/fiber/v2"
-	"livestream/src/routes/api"
 )
 
 func Register(s *fiber.App) {

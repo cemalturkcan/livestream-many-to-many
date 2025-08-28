@@ -1,16 +1,16 @@
 package server
 
 import (
-	"encoding/json"
-	"github.com/goccy/go-json"
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/log"
 	"livestream-many-to-many/app/config"
 	"livestream-many-to-many/app/exitcode"
 	"livestream-many-to-many/app/middlewares"
 	"livestream-many-to-many/app/rest"
 	"livestream-many-to-many/src/routes"
 	"os"
+
+	"github.com/goccy/go-json"
+	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/log"
 )
 
 type FiberServer struct {
@@ -24,7 +24,6 @@ func New() *FiberServer {
 			ErrorHandler: ErrorHandler,
 			JSONDecoder:  json.Unmarshal,
 			JSONEncoder:  json.Marshal,
-			ViewsLayout:  "layouts/main.django",
 		}),
 	}
 	middlewares.RegisterMiddlewares(server.App)
