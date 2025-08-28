@@ -1,8 +1,9 @@
 # 🎥 Livestream Many-to-Many
 
-A professional real-time video streaming platform enabling multiple users to broadcast and view live video streams simultaneously. Built with enterprise-grade WebRTC technology for direct peer-to-peer communication.
+A real-time video streaming application enabling multiple users to broadcast and view live video streams simultaneously. Built with WebRTC technology for direct peer-to-peer communication.
 
-![Main Interface](screenshots/main-interface.png)
+![Main Interface](<img width="2560" height="1271" alt="image" src="https://github.com/user-attachments/assets/1f4d2e99-5313-44c6-8dc2-d97b75ec1065" />)
+
 
 ## 🏗️ Technology Stack
 
@@ -24,7 +25,7 @@ A professional real-time video streaming platform enabling multiple users to bro
 ### Real-Time Video Communication
 Multi-participant video streaming with low-latency peer-to-peer connections.
 
-![Video Grid Layout](screenshots/video-grid.png)
+![Video Grid Layout](<img width="2560" height="1271" alt="screenshot-2025-08-28-15-54-01" src="https://github.com/user-attachments/assets/828a9539-a0d6-4235-888d-92a26a083f6b" />)
 
 ### Role-Based Access
 Broadcaster and viewer modes for flexible participation control.
@@ -61,7 +62,7 @@ Access at `http://localhost:9090`
 
 ## 🏛️ Architecture
 
-Enterprise-grade signaling server built with Go Fiber handling WebSocket connections for WebRTC peer coordination. Frontend utilizes native browser WebRTC APIs for direct media streaming.
+Signaling server built with Go Fiber handling WebSocket connections for WebRTC peer coordination. Frontend utilizes browser WebRTC APIs for direct media streaming.
 
 ![Architecture](screenshots/architecture.png)
 
