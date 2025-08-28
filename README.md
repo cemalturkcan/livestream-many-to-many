@@ -2,7 +2,9 @@
 
 A professional real-time video streaming platform enabling multiple users to broadcast and view live video streams simultaneously. Built with enterprise-grade WebRTC technology for direct peer-to-peer communication.
 
-![Main Interface](screenshots/main-interface.png)
+![Main Interface]()
+<img width="2560" height="1271" alt="image" src="https://github.com/user-attachments/assets/1f4d2e99-5313-44c6-8dc2-d97b75ec1065" />
+
 
 ## 🏗️ Technology Stack
 
