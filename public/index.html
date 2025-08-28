@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +8,40 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div class="videos-container" id="videos-container">
-    <div class="videos flex-1" id="videos-one">
-        <video id="localVideo" autoplay muted playsinline></video>
+    <div class="app-container">
+        <div class="main-content">
+            <div class="videos-container count-1" id="videos-container"></div>
+            
+            <div class="status-indicator" id="status-indicator">
+                <div class="status-dot" id="status-dot"></div>
+                <span id="status-text">Connecting...</span>
+            </div>
+        </div>
+
+        <button class="toggle-button" id="toggle-sidebar">⚙️</button>
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-title">Room Settings</div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="room-id">Room ID</label>
+                <input type="text" class="form-input" id="room-id" placeholder="Enter room ID">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Select Role</label>
+                <div class="role-buttons">
+                    <button class="role-button active" id="broadcaster-btn">Broadcaster</button>
+                    <button class="role-button" id="viewer-btn">Viewer</button>
+                </div>
+            </div>
+
+            <button class="action-button" id="join-room">Join Room</button>
+        </div>
     </div>
-    <div class="videos" id="videos-two">
-    </div>
-</div>
+    
+    <script src="/app.js"></script>
 </body>
-<script src="/app.js"></script>
 </html>
