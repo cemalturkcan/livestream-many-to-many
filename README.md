@@ -29,7 +29,7 @@ Multi-participant video streaming with low-latency peer-to-peer connections.
 ### Role-Based Access
 Broadcaster and viewer modes for flexible participation control.
 
-![Role Selection](screenshots/role-selection.png)
+<img width="290" height="311" alt="image" src="https://github.com/user-attachments/assets/db564c99-43a0-4c2a-b1c0-f47a7b6f7909" />
 
 ## 🚀 Quick Start
 
@@ -46,8 +46,6 @@ make run
 ```
 
 Access at `http://localhost:9090`
-
-![Installation](screenshots/installation.png)
 
 ## 📋 Usage
 
